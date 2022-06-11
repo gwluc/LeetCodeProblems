@@ -5,8 +5,8 @@ using namespace std;
 
 int romanToInt(string s) {
 
-    int precedenceValue=2000;
-    int sum=0;
+    int precedenceValue {2000};
+    int sum {0};
 
     unordered_map<char, int> umap { {'I', 1}, {'V', 5}, {'X', 10}, {'L', 50}, {'C',100}, {'D',500}, {'M', 1000} };
 
