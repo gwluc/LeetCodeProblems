@@ -31,21 +31,3 @@ bool isValid(string s) {
 
     return arr.size() ? false : true;
 }
-
-
-int main() {
-
-    cout << isValid("(){}") << endl;
-    cout << isValid(")({}") << endl;
-    cout << isValid("{}()") << endl;
-    cout << isValid("([)]") << endl;
-    cout << isValid("([{}])") << endl;
-    cout << isValid("(") << endl;
-
-    //unordered_map<char, char> Brackets {{'}', '{'}, {')', '('}, {']', '['}};
-    //vector<int> arr1 = {1,2,3,4,55};
-
-    //std::cout << (Brackets['}']) << std::endl;
-    //std::cout << (arr1.back() == 40) << std::endl;
-
-}
